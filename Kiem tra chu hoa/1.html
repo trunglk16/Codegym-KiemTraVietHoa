@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkUpper(text) {
+        var patt = /[A-Z]/;
+        var result = patt.test(text[0]);
+        if (result === true){
+            alert("Bat dau bang ky tu viet hoa");
+        } else {
+            alert("Khong bat dau bang ky tu viet hoa");
+        }
+    }
+    var a = prompt("Nhap chuoi");
+    checkUpper(a);
+</script>
+</body>
+</html>
